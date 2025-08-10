@@ -60,3 +60,24 @@ RAG-Java-Milvus-Ollama/
 
 ---
 
+## 🔧 Setup Instructions
+
+### 1. Clone the Repo
+
+bash
+git clone https://github.com/norannali/RAG-Java-Milvus-Ollama.git
+cd RAG-Java-Milvus-Ollama
+
+---
+### 2. Start Milvus and MinIO
+- Make sure Docker is running, then:
+
+bash
+docker-compose up -d
+
+If you're not using Docker Compose, refer to the Milvus documentation for manual setup.
+---
+
+###  3. Start Ollama
+bash
+ollama run mistral
