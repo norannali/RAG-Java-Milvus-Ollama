@@ -60,11 +60,3 @@ RAG-Java-Milvus-Ollama/
 
 ---
 
-## 🔧 Setup Instructions
-
-### 1. Clone the Repo
-
-```bash
-git clone https://github.com/norannali/RAG-Java-Milvus-Ollama.git
-cd RAG-Java-Milvus-Ollama
-```
