@@ -81,3 +81,13 @@ If you're not using Docker Compose, refer to the Milvus documentation for manual
 ###  3. Start Ollama
 bash
 ollama run mistral
+
+---
+## 🛠 Build & Run
+Build the project:
+bash
+mvn clean install
+
+Run the main class:
+bash
+java -cp target/RAG-1.0-SNAPSHOT.jar com.example.Main
