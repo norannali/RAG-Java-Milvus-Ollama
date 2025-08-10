@@ -99,9 +99,9 @@ java -cp target/RAG-1.0-SNAPSHOT.jar com.example.Main
 - Customize your prompt or LLM configuration via RagLLM.
 ---
 ## 🤝 Contributors
-@norannali
-@eman774
-@Fa-Abdullah
+@ norannali
+@ eman774
+@ Fa-Abdullah
 
 ---
 ## 📝 License
