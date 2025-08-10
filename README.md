@@ -56,7 +56,7 @@ RAG-Java-Milvus-Ollama/
 - **Java 21+**
 - **Maven 3.8+**
 - **Docker** (for running Milvus and MinIO locally)
-- **Ollama** installed locally with a model pulled (e.g., `ollama run llama3`)
+- **Ollama** installed locally with a model pulled (e.g., `ollama run mistral`)
 
 ---
 
