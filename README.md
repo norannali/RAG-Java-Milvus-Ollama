@@ -64,30 +64,46 @@ RAG-Java-Milvus-Ollama/
 
 ### 1. Clone the Repo
 
-bash
+```bash
 git clone https://github.com/norannali/RAG-Java-Milvus-Ollama.git
 cd RAG-Java-Milvus-Ollama
-
+```
 ---
 ### 2. Start Milvus and MinIO
 - Make sure Docker is running, then:
 
-bash
+```bash
 docker-compose up -d
-
+```
 If you're not using Docker Compose, refer to the Milvus documentation for manual setup.
 ---
 
 ###  3. Start Ollama
-bash
+```bash
 ollama run mistral
-
+```
 ---
 ## 🛠 Build & Run
 Build the project:
-bash
+```bash
 mvn clean install
-
+```
+---
 Run the main class:
-bash
+```bash
 java -cp target/RAG-1.0-SNAPSHOT.jar com.example.Main
+```
+## 📌 Usage
+- Add documents using MilvusVectorStore.
+- Generate answers via RagService.
+- Customize your prompt or LLM configuration via RagLLM.
+---
+## 🤝 Contributors
+@norannali
+@eman774
+@Fa-Abdullah
+
+---
+## 📝 License
+- This project is licensed under the MIT License. See LICENSE for more information.
+
